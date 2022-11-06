@@ -296,7 +296,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:236
 #, elixir-autogen, elixir-format
-msgid "Amount of distributed reward. Miners receive a static block reward + Tx fees + uncle fees."
+msgid "Amount of distributed reward. Validator receive a static block reward + Tx fees + uncle fees."
 msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:15
@@ -464,7 +464,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 #, elixir-autogen, elixir-format
-msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
+msgid "Gitshock Scan is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Gitshock Networks."
 msgstr ""
 
 #: lib/block_scout_web/templates/block/_tile.html.eex:64
@@ -1593,13 +1593,13 @@ msgstr ""
 #: lib/block_scout_web/templates/block/overview.html.eex:98
 #: lib/block_scout_web/templates/chain/_block.html.eex:16
 #, elixir-autogen, elixir-format
-msgid "Miner"
+msgid "Validator"
 msgstr ""
 
 #: lib/block_scout_web/views/block_view.ex:61
 #: lib/block_scout_web/views/block_view.ex:66
 #, elixir-autogen, elixir-format
-msgid "Miner Reward"
+msgid "Validator Reward"
 msgstr ""
 
 #: lib/block_scout_web/templates/common_components/_minimal_proxy_pattern.html.eex:3

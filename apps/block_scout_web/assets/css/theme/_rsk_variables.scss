@@ -1,8 +1,8 @@
 // general
-$primary: #101f25;
-$secondary: #27ac8d;
-$tertiary: #e39a54;
-$additional-font: #a1ded1;
+$primary: #e96dc4;
+$secondary: #577fee;
+$tertiary: #577fee;
+$additional-font: #ffffff;
 
 $tile-body-a-color: $secondary;
 $tile-type-block-color: $secondary;
@@ -26,8 +26,8 @@ $dashboard-stats-item-value-color: #fff; // stat values
 
 $dashboard-stats-item-border-color: $secondary; // stat border
 $dashboard-banner-gradient-start: $primary; // gradient begin
-$dashboard-banner-gradient-end: #193039; // gradient end
-$dashboard-banner-network-plain-container-background-color: #1a323b; // stats bg
+$dashboard-banner-gradient-end: #577fee; // gradient end
+$dashboard-banner-network-plain-container-background-color: #577fee; // stats bg
 
 // navigation
 $header-icon-border-color-hover: $secondary; // top border on hover
@@ -47,7 +47,7 @@ $card-tab-active: $secondary;
 // ETC theme's idiosyncrasies
 .layout-container {
     .navbar {
-      box-shadow: 0 0 30px 0 rgba(21, 53, 80, 0.12);
+      box-shadow: 0 0 30px 0 #577fee52;
     }
 
     .dashboard-banner-container {
@@ -64,10 +64,10 @@ $card-tab-active: $secondary;
 }
 
 // Badges
-$badge-neutral-color: #1a323b;
-$badge-neutral-background-color: rgba(#1a323b, .1);
+$badge-neutral-color: #121414;
+$badge-neutral-background-color: rgba(#121414, .1);
 
 // Dark theme
-$dark-primary: #38c5a4;
-$dark-secondary: #e39a54;
-$dark-primary-alternate: #30ab8d;
+$dark-primary: #e96dc4;
+$dark-secondary: #577fee;
+$dark-primary-alternate: #46b8db;

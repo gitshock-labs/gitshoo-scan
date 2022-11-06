@@ -33,7 +33,7 @@ defmodule EthereumJSONRPC.Block do
         }
 
   @typedoc """
-   * `"author"` - `t:EthereumJSONRPC.address/0` that created the block.  Aliased by `"miner"`.
+   * `"author"` - `t:EthereumJSONRPC.address/0` that created the block.  Aliased by `"validator"`.
    * `"difficulty"` - `t:EthereumJSONRPC.quantity/0` of the difficulty for this block.
    * `"extraData"` - the extra `t:EthereumJSONRPC.data/0` field of this block.
    * `"gasLimit" - maximum gas `t:EthereumJSONRPC.quantity/0` in this block.
@@ -41,7 +41,7 @@ defmodule EthereumJSONRPC.Block do
    * `"hash"` - the `t:EthereumJSONRPC.hash/0` of the block.
    * `"logsBloom"` - `t:EthereumJSONRPC.data/0` for the [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter)
      for the logs of the block. `nil` when block is pending.
-   * `"miner"` - `t:EthereumJSONRPC.address/0` of the beneficiary to whom the mining rewards were given.  Aliased by
+   * `"validator"` - `t:EthereumJSONRPC.address/0` of the beneficiary to whom the mining rewards were given.  Aliased by
       `"author"`.
    * `"mixHash"` - Generated from [DAG](https://ethereum.stackexchange.com/a/10353) as part of Proof-of-Work for EthHash
      algorithm.  **[Geth](https://github.com/ethereum/go-ethereum/wiki/geth) + Proof-of-Work-only**

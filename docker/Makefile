@@ -4,8 +4,6 @@ DOCKER_REPO := blockscout
 APP_NAME := blockscout
 BS_CONTAINER_IMAGE := $(DOCKER_REPO)/$(APP_NAME)
 BS_CONTAINER_NAME := blockscout
-PG_CONTAINER_IMAGE := postgres:14
-PG_CONTAINER_NAME := db
 THIS_FILE = $(lastword $(MAKEFILE_LIST))
 TAG := $(RELEASE_VERSION)-prerelease-$(shell git log -1 --pretty=format:"%h")
 STABLE_TAG := $(RELEASE_VERSION)
@@ -17,7 +15,7 @@ endif
 ifdef DATABASE_URL
 	DB_URL = $(DATABASE_URL)
 else
-	DB_URL = postgresql://postgres:@$(HOST):5432/blockscout?ssl=false
+	DB_URL = postgresql://postgres:gitshockvalopers@postgres-gitshockscan.cbtzm3zkz4qk.us-east-1.rds.amazonaws.com:5432/postgres
 	ECTO_USE_SSL = 'false'
 endif
 BLOCKSCOUT_CONTAINER_PARAMS = -e 'MIX_ENV=prod' \

@@ -35,7 +35,7 @@ defmodule Indexer.Transform.Blocks.CliqueTest do
   }
 
   describe "transform/1" do
-    test "updates the miner hash with signer address" do
+    test "updates the validator staker hash with signer address" do
       expected = %{@block | miner_hash: "0xfc18cbc391de84dbd87db83b20935d3e89f5dd91"}
       assert Clique.transform(@block) == expected
     end

@@ -979,7 +979,7 @@ defmodule BlockScoutWeb.Etherscan do
       blockMiner: @address_hash_type,
       blockReward: %{
         type: "block reward",
-        definition: "The reward given to the miner of a block.",
+        definition: "The reward given to the validator staker of a block.",
         example: ~s("5003251945421042780")
       },
       uncles: %{type: "null"},
